@@ -28,9 +28,9 @@ This document provides a categorized list of 100 commonly used Linux commands, o
 - `du -h` - Display disk usage in human-readable format.
 - `df -h` - Display file system disk space usage.
 
-### Advanced
-- `rsync -av source destination` - Synchronize files and directories.
-- `tar -cvf archive.tar directory` - Archive a directory.
+### Advanced (entire thing pending)
+- `rsync -av source destination` - Synchronize files and directories. p
+- `tar -cvf archive.tar directory` - Archive a directory.p
 - `tar -xvf archive.tar` - Extract an archive.
 - `scp user@host:/path/to/file /local/path` - Secure copy a file from a remote host.
 - `scp /local/path user@host:/path/to/destination` - Secure copy a file to a remote host.
@@ -51,10 +51,10 @@ This document provides a categorized list of 100 commonly used Linux commands, o
 - `uptime` - Show system uptime.
 - `date` - Display the current date and time.
 - `hostname` - Display or set the system hostname.
-- `shutdown -h now` - Shut down the system immediately.
-- `reboot` - Reboot the system.
+- `shutdown -h now` - Shut down the system immediately. p
+- `reboot` - Reboot the system. p
 
-### Intermediate
+### Intermediate (pending)
 - `htop` - Interactive process viewer.
 - `nice -n 10 command` - Start a process with a specified priority.
 - `renice -n 10 -p PID` - Change the priority of a running process.
@@ -66,7 +66,7 @@ This document provides a categorized list of 100 commonly used Linux commands, o
 - `systemctl status service` - Show the status of a systemd service.
 - `systemctl restart service` - Restart a systemd service.
 
-### Advanced
+### Advanced (pending)
 - `strace -p PID` - Trace system calls and signals.
 - `lsof | grep filename` - List open files and the processes using them.
 - `vmstat` - Report virtual memory statistics.
@@ -85,14 +85,14 @@ This document provides a categorized list of 100 commonly used Linux commands, o
 - `curl http://example.com` - Make a web request.
 - `wget http://example.com/file` - Download a file.
 - `hostname` - Display or set the system hostname.
-- `ifconfig` - Display network interface information.
-- `ip a` - Display IP addresses and interfaces.
-- `ip link set dev interface up/down` - Bring a network interface up or down.
-- `netstat -rn` - Display routing table.
-- `traceroute hostname` - Trace the route to a host.
-- `nslookup hostname` - Query DNS records for a domain.
+- `ifconfig` - Display network interface information.p
+- `ip a` - Display IP addresses and interfaces. (what is interfaces)
+- `ip link set dev interface up/down` - Bring a network interface up or down.p
+- `netstat -rn` - Display routing table.p
+- `traceroute hostname` - Trace the route to a host.p
+- `nslookup hostname` - Query DNS records for a domain.p
 
-### Intermediate
+### Intermediate (pending)
 - `dig domain` - Query DNS records.
 - `arp -a` - Display the ARP table.
 - `ss -tuln` - List listening ports and services.
@@ -104,7 +104,7 @@ This document provides a categorized list of 100 commonly used Linux commands, o
 - `ifdown interface` - Bring an interface down.
 - `iwconfig` - Configure wireless interfaces.
 
-### Advanced
+### Advanced (pending)
 - `tcpdump -i interface -w file.pcap` - Capture network traffic to a file.
 - `tcpdump -nn -i interface 'port 80'` - Capture HTTP traffic.
 - `nmap -sP 192.168.1.0/24` - Scan for live hosts on a network.
@@ -201,7 +201,7 @@ This document provides a categorized list of 100 commonly used Linux commands, o
 - `cut -d, -f1-3 filename` - Extract fields from a CSV file.
 - `sort -n filename` - Sort numerically.
 
-## 🔒 Security and Permissions 🔒
+## 🔒 Security and Permissions 🔒 (pending)
 
 ### Simple
 - `passwd` - Change user password.
