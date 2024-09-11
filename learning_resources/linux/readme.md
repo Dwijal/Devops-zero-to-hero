@@ -1,7 +1,7 @@
 # 🚀 Linux Command Essentials for DevOps 🚀
 
 This document provides a categorized list of 100 commonly used Linux commands, organized by functionality and difficulty level. It is designed as a quick reference for DevOps professionals.
-
+-
 ## 🔧 File Management 🔧
 
 ### Simple
